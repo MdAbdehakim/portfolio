@@ -25,15 +25,27 @@ export default function Contact() {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // Simulate form submission
-        await new Promise(resolve => setTimeout(resolve, 1500));
+        try {
+            const response = await fetch('https://formspree.io/f/xykjwqrn', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            });
 
-        setIsSubmitting(false);
-        setIsSubmitted(true);
-        setFormData({ name: '', email: '', message: '' });
-
-        // Reset success message after 5 seconds
-        setTimeout(() => setIsSubmitted(false), 5000);
+            if (response.ok) {
+                setIsSubmitted(true);
+                setFormData({ name: '', email: '', message: '' });
+                setTimeout(() => setIsSubmitted(false), 5000);
+            } else {
+                alert("Une erreur s'est produite. Veuillez réessayer.");
+            }
+        } catch (error) {
+            alert("Erreur de connexion. Vérifiez votre internet.");
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
 
