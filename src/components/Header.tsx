@@ -43,6 +43,13 @@ export default function Header() {
                         href="#home"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
+                        className="relative"
+                    >
+                        <Image
+                            src="/logo.png"
+                            alt="Abdelhakim Mahdad Logo"
+                            width={140}
+                            height={50}
                             className="h-12 w-auto object-contain"
                             priority
                         />
