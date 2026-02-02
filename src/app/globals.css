@@ -24,6 +24,7 @@
   --muted: #64748b;
   --card-bg: #ffffff;
   --card-border: #e2e8f0;
+  --bg-gradient: radial-gradient(circle at 50% 0%, #ecfdf5 0%, #f8fafc 100%);
 }
 
 .dark {
@@ -32,6 +33,7 @@
   --card-bg: #1e293b;
   --card-border: #334155;
   --muted: #94a3b8;
+  --bg-gradient: radial-gradient(circle at 50% 0%, #064e3b 0%, #0f172a 60%);
 }
 
 /* Light mode defaults (implicit in :root) */
@@ -43,6 +45,8 @@
 
 body {
   background: var(--background);
+  background-image: var(--bg-gradient);
+  background-attachment: fixed;
   color: var(--foreground);
   font-family: 'Inter', system-ui, sans-serif;
 }
