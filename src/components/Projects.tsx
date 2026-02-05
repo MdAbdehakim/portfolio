@@ -5,6 +5,13 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
     {
+        title: 'Moroccan Sign Language Recognition',
+        description: 'Implemented a Convolutional Neural Network (CNN) to recognize Moroccan Sign Language (MSL) signs. Features real-time detection using OpenCV and result analysis with MongoDB storage.',
+        tags: ['Python', 'TensorFlow', 'OpenCV', 'Deep Learning'],
+        image: '',
+        github: 'https://github.com/MdAbdehakim/-Moroccan-Sign-Language-Recognition-Project',
+    },
+    {
         title: 'Multi-Agent System for Big Data Resource Management',
         description: 'Distributed system with multi-agent architecture for automatic workload management, dynamic scalability, and real-time resource monitoring. Achieved +10,000 tasks processed with auto-scaling from 7 to 204 dynamic nodes.',
         tags: ['Python', 'Pandas', 'Multiprocessing', 'Asyncio', 'Tkinter'],
