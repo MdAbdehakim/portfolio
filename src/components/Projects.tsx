@@ -23,7 +23,7 @@ const projects = [
         description: 'Personalized recommendation system using Holland Codes (RIASEC) to match students with suitable educational and career pathways. Built with Random Forest and Gradient Boosting models.',
         tags: ['Python', 'Streamlit', 'Machine Learning', 'Random Forest'],
         image: '/projects/education-ai.png',
-        // github: '', // Project not found in public repositories
+        github: 'https://github.com/MdAbdehakim', // Repository not public, linking to profile
     },
     {
         title: 'Traffic Flow Prediction with Self-Supervised Learning',
