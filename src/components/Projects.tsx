@@ -16,31 +16,35 @@ const projects = [
         description: 'Distributed system with multi-agent architecture for automatic workload management, dynamic scalability, and real-time resource monitoring. Achieved +10,000 tasks processed with auto-scaling from 7 to 204 dynamic nodes.',
         tags: ['Python', 'Pandas', 'Multiprocessing', 'Asyncio', 'Tkinter'],
         image: '/projects/multi-agent.png',
-        github: 'https://github.com/MdAbdehakim/multi-agent-bigdata',
+        github: 'https://github.com/MdAbdehakim/Syst-me-Multi-Agent-pour-la-Gestion-des-Ressources-dans-un-Environnement-Big-Data',
     },
     {
         title: 'AI-Powered Educational System for Africa',
         description: 'Personalized recommendation system using Holland Codes (RIASEC) to match students with suitable educational and career pathways. Built with Random Forest and Gradient Boosting models.',
         tags: ['Python', 'Streamlit', 'Machine Learning', 'Random Forest'],
         image: '/projects/education-ai.png',
+        // github: '', // Project not found in public repositories
     },
     {
         title: 'Traffic Flow Prediction with Self-Supervised Learning',
         description: 'Traffic prediction using SimCLR self-supervised learning technique. The model learned meaningful traffic patterns through contrastive learning without costly labeled data.',
         tags: ['Python', 'PyTorch', 'SimCLR', 'Deep Learning'],
         image: '/projects/traffic-prediction.png',
+        github: 'https://github.com/MdAbdehakim/Enhancing-Traffic-Prediction-with-Self-Supervised-Learning',
     },
     {
         title: 'Fake Banknote Detection with AI',
         description: 'AI classification system using Decision Trees to detect counterfeit currency. Variance identified as the key feature for classification with impressive accuracy.',
         tags: ['Python', 'Scikit-learn', 'Decision Tree', 'Data Analysis'],
         image: '/projects/banknote-detection.png',
+        github: 'https://github.com/MdAbdehakim/Classification-des-Billets-de-Banque-En-Utilisant-l-Algorithme-d-Arbre-de-D-cision',
     },
     {
         title: 'Big Data Integration & Cleaning System',
         description: 'Efficient system for integrating and cleaning heterogeneous data from various sources. Applied duplicate removal, data normalization, and interactive visualization.',
         tags: ['Python', 'Pandas', 'ETL', 'Data Visualization'],
         image: '/projects/data-integration.png',
+        github: 'https://github.com/MdAbdehakim/Nettoyage-Donnees-et-Integration',
     },
 ];
 
