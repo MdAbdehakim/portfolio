@@ -8,7 +8,7 @@ const projects = [
         title: 'Moroccan Sign Language Recognition',
         description: 'Implemented a Convolutional Neural Network (CNN) to recognize Moroccan Sign Language (MSL) signs. Features real-time detection using OpenCV and result analysis with MongoDB storage.',
         tags: ['Python', 'TensorFlow', 'OpenCV', 'Deep Learning'],
-        image: '',
+        image: '/projects/msl-recognition.png',
         github: 'https://github.com/MdAbdehakim/-Moroccan-Sign-Language-Recognition-Project',
     },
     {
