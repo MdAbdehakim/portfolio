@@ -56,7 +56,7 @@ const skillCategories = [
         skills: [
             { name: 'Jupyter Notebook', level: 95 },
             { name: 'Git/GitHub', level: 85 },
-            { name: 'LaTeX', level: 90 },
+            { name: 'LaTeX', level: 100 },
             { name: 'VS Code', level: 90 },
             { name: 'Linux', level: 20 },
         ],
