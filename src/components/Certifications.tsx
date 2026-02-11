@@ -29,6 +29,22 @@ const certifications = [
         pdf: '/certifications/CC-AA5F9BCB60.pdf',
         color: 'from-purple-500 to-pink-500',
     },
+    {
+        name: 'n8n: A Complete Guide to the Automation Tool',
+        issuer: 'Analytics Vidhya',
+        date: '2026',
+        image: '/certifications/n8n-certification.png',
+        pdf: '/certifications/ABDELHAKIM MAHDAD - 2026-02-07.pdf',
+        color: 'from-orange-500 to-red-500',
+    },
+    {
+        name: 'Introduction to CrewAI: Building a Researcher Assistant Agent',
+        issuer: 'Analytics Vidhya',
+        date: '2026',
+        image: '/certifications/crewai-certification.png',
+        pdf: '/certifications/ABDELHAKIM MAHDAD - 2026-02-11.pdf',
+        color: 'from-cyan-500 to-blue-500',
+    },
 ];
 
 export default function Certifications() {
